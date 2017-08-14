@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526B461A1F4185E5008BC2A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 526B46191F4185E5008BC2A2 /* main.m */; };
+		526B461D1F4185E5008BC2A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 526B461C1F4185E5008BC2A2 /* AppDelegate.m */; };
+		526B46201F4185E5008BC2A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 526B461F1F4185E5008BC2A2 /* ViewController.m */; };
+		526B46231F4185E5008BC2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B46211F4185E5008BC2A2 /* Main.storyboard */; };
+		526B46251F4185E5008BC2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526B46241F4185E5008BC2A2 /* Assets.xcassets */; };
+		526B46281F4185E5008BC2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B46261F4185E5008BC2A2 /* LaunchScreen.storyboard */; };
+		526B46321F4185FA008BC2A2 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 526B46311F4185FA008BC2A2 /* libmp3lame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526B46151F4185E5008BC2A2 /* libmp3lame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libmp3lame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		526B46191F4185E5008BC2A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		526B461B1F4185E5008BC2A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		526B461C1F4185E5008BC2A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		526B461E1F4185E5008BC2A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		526B461F1F4185E5008BC2A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		526B46221F4185E5008BC2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526B46241F4185E5008BC2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526B46271F4185E5008BC2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526B46291F4185E5008BC2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526B46301F4185FA008BC2A2 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		526B46311F4185FA008BC2A2 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526B46121F4185E5008BC2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B46321F4185FA008BC2A2 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526B460C1F4185E5008BC2A2 = {
+			isa = PBXGroup;
+			children = (
+				526B46171F4185E5008BC2A2 /* libmp3lame */,
+				526B46161F4185E5008BC2A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526B46161F4185E5008BC2A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526B46151F4185E5008BC2A2 /* libmp3lame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526B46171F4185E5008BC2A2 /* libmp3lame */ = {
+			isa = PBXGroup;
+			children = (
+				526B462F1F4185FA008BC2A2 /* Lame */,
+				526B461B1F4185E5008BC2A2 /* AppDelegate.h */,
+				526B461C1F4185E5008BC2A2 /* AppDelegate.m */,
+				526B461E1F4185E5008BC2A2 /* ViewController.h */,
+				526B461F1F4185E5008BC2A2 /* ViewController.m */,
+				526B46211F4185E5008BC2A2 /* Main.storyboard */,
+				526B46241F4185E5008BC2A2 /* Assets.xcassets */,
+				526B46261F4185E5008BC2A2 /* LaunchScreen.storyboard */,
+				526B46291F4185E5008BC2A2 /* Info.plist */,
+				526B46181F4185E5008BC2A2 /* Supporting Files */,
+			);
+			path = libmp3lame;
+			sourceTree = "<group>";
+		};
+		526B46181F4185E5008BC2A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526B46191F4185E5008BC2A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		526B462F1F4185FA008BC2A2 /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				526B46301F4185FA008BC2A2 /* lame.h */,
+				526B46311F4185FA008BC2A2 /* libmp3lame.a */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526B46141F4185E5008BC2A2 /* libmp3lame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526B462C1F4185E5008BC2A2 /* Build configuration list for PBXNativeTarget "libmp3lame" */;
+			buildPhases = (
+				526B46111F4185E5008BC2A2 /* Sources */,
+				526B46121F4185E5008BC2A2 /* Frameworks */,
+				526B46131F4185E5008BC2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libmp3lame;
+			productName = libmp3lame;
+			productReference = 526B46151F4185E5008BC2A2 /* libmp3lame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526B460D1F4185E5008BC2A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = John;
+				TargetAttributes = {
+					526B46141F4185E5008BC2A2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 526B46101F4185E5008BC2A2 /* Build configuration list for PBXProject "libmp3lame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526B460C1F4185E5008BC2A2;
+			productRefGroup = 526B46161F4185E5008BC2A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526B46141F4185E5008BC2A2 /* libmp3lame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526B46131F4185E5008BC2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B46281F4185E5008BC2A2 /* LaunchScreen.storyboard in Resources */,
+				526B46251F4185E5008BC2A2 /* Assets.xcassets in Resources */,
+				526B46231F4185E5008BC2A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526B46111F4185E5008BC2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526B46201F4185E5008BC2A2 /* ViewController.m in Sources */,
+				526B461D1F4185E5008BC2A2 /* AppDelegate.m in Sources */,
+				526B461A1F4185E5008BC2A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		526B46211F4185E5008BC2A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526B46221F4185E5008BC2A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		526B46261F4185E5008BC2A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526B46271F4185E5008BC2A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526B462A1F4185E5008BC2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		526B462B1F4185E5008BC2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526B462D1F4185E5008BC2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = libmp3lame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libmp3lame/Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.libmp3lame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		526B462E1F4185E5008BC2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = libmp3lame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libmp3lame/Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.libmp3lame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526B46101F4185E5008BC2A2 /* Build configuration list for PBXProject "libmp3lame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526B462A1F4185E5008BC2A2 /* Debug */,
+				526B462B1F4185E5008BC2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526B462C1F4185E5008BC2A2 /* Build configuration list for PBXNativeTarget "libmp3lame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526B462D1F4185E5008BC2A2 /* Debug */,
+				526B462E1F4185E5008BC2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526B460D1F4185E5008BC2A2 /* Project object */;
+}
