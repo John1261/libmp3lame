@@ -30,8 +30,11 @@ mp3 lame lib for iOS
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'libmp3lame/Lame/*h'
-  s.ios.vendored_libraries = 'libmp3lame/Lame/libmp3lame.a'
+  s.source_files = "libmp3lame/Lame/*.{h,m}"
+  s.public_header_files = "libmp3lame/Lame/*.h"
+  s.preserve_paths = "libmp3lame/Lame"
+  s.ios.vendored_libraries = "libmp3lame/Lame/libmp3lame.a"
+  s.frameworks = "UIKit", "Foundation", "AVFoundation"
   
   # s.resource_bundles = {
   #   'libmp3lame' => ['libmp3lame/Assets/*.png']
