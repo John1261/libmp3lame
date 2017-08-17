@@ -30,7 +30,7 @@ mp3 lame for iOS
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'libmp3lame/Lame/*'
+  s.source_files = 'libmp3lame/Lame/*h'
   s.ios.vendored_libraries = 'libmp3lame/Lame/libmp3lame.a'
   
   # s.resource_bundles = {
