@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libmp3lame'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'mp3 lame for iOS'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ mp3 lame lib for iOS
   s.source_files = "libmp3lame/Lame/*.{h,m}"
   s.public_header_files = "libmp3lame/Lame/*.h"
   s.preserve_paths = "libmp3lame/Lame"
-  s.ios.vendored_libraries = "libmp3lame/Lame/libmp3lame.a"
+  s.vendored_libraries = "libmp3lame/Lame/libmp3lame.a"
   s.frameworks = "UIKit", "Foundation", "AVFoundation"
   
   # s.resource_bundles = {
