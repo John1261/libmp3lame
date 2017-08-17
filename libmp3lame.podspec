@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-mp3 lame for iOS
+mp3 lame lib for iOS
                        DESC
 
   s.homepage         = 'https://github.com/John1261/libmp3lame'
