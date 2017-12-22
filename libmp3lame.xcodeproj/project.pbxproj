@@ -13,7 +13,7 @@
 		526B46231F4185E5008BC2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B46211F4185E5008BC2A2 /* Main.storyboard */; };
 		526B46251F4185E5008BC2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526B46241F4185E5008BC2A2 /* Assets.xcassets */; };
 		526B46281F4185E5008BC2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526B46261F4185E5008BC2A2 /* LaunchScreen.storyboard */; };
-		526B46321F4185FA008BC2A2 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 526B46311F4185FA008BC2A2 /* libmp3lame.a */; };
+		5287554E1FED048700AAB07F /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5287554D1FED048700AAB07F /* libmp3lame.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		526B46241F4185E5008BC2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526B46271F4185E5008BC2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526B46291F4185E5008BC2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		526B46301F4185FA008BC2A2 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		526B46311F4185FA008BC2A2 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		5287554C1FED048700AAB07F /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		5287554D1FED048700AAB07F /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526B46321F4185FA008BC2A2 /* libmp3lame.a in Frameworks */,
+				5287554E1FED048700AAB07F /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +87,8 @@
 		526B462F1F4185FA008BC2A2 /* Lame */ = {
 			isa = PBXGroup;
 			children = (
-				526B46301F4185FA008BC2A2 /* lame.h */,
-				526B46311F4185FA008BC2A2 /* libmp3lame.a */,
+				5287554C1FED048700AAB07F /* lame.h */,
+				5287554D1FED048700AAB07F /* libmp3lame.a */,
 			);
 			path = Lame;
 			sourceTree = "<group>";
@@ -331,6 +331,7 @@
 				526B462E1F4185E5008BC2A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
